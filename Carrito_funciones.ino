@@ -49,7 +49,7 @@ void atras(){
   digitalWrite(in4, HIGH);
   analogWrite(PWM34, vel34);
 }
-void apagado(){
+void parar(){
   digitalWrite(in1, LOW);
   digitalWrite(in2, LOW);
   digitalWrite(in3, LOW);
